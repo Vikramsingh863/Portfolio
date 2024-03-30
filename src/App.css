@@ -1,4 +1,6 @@
-
+*{
+    background-color: black;
+}
 @font-face {
     font-family:poppins ;
     src: url("./Fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
@@ -123,23 +125,37 @@ color: white;
     color: rgb(247, 48, 147);
     font-weight: 700;
 }
-.check{
-    cursor: pointer;
-}
+
 
 @media only screen and (max-width:1000) {
     .homepage{background-color: red;}
     
 }
-.borders{
-    
-    display: inline;
-    background-color: black;
-    color: white;
-}
+
 .codingimg{
     padding: 0px;
     margin: 0px;
     height: 20vh;
     object-fit: cover;
+}
+.nav{
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+.navul{
+    display: flex;
+    /* padding-right: 20px; */
+    color: white;
+    flex-wrap: wrap;
+}
+.navimg{
+    height: 70px;
+    width: 100px;
+    object-fit:fill;
+   margin-right: 20px; 
 }
