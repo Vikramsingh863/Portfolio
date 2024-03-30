@@ -53,10 +53,11 @@
 .left span{
     color: rgb(247, 48, 147);
 }
-/* .abbgcolor{
-    background-color:black;
-    height: 100%;
-} */
+.abbgcolor{
+min-height: 120vh;
+    
+    border: 2px solid saddlebrown;
+}
 
 
 .tabs {
@@ -93,6 +94,8 @@
 }
 
 .content {
+    
+    
     position: absolute;
     left: 0;
     /* border-top: 2px solid #D2D9E6; */
@@ -110,7 +113,7 @@
     color: rgb(255, 255, 255);
     background-color: rgb(247, 48, 147);
     border-radius: 5px ;
-    min-width: 100px;
+    min-width: 80px;
     box-shadow: .5px .5px 1px 1px rgb(236, 233, 235);
     /* box-shadow: inset .5px .5px 1px 1px rgb(218, 14, 48) ; */
     
