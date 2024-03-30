@@ -27,8 +27,9 @@
     
 }
 .right img{
-    height: 130vh;
+    height: 70vh;
     object-fit:cover;
+    
 }
 .left h1{
     font-size:3rem;
@@ -39,8 +40,10 @@
 .left{
     justify-content: center;
     text-align: center;
-    
-
+    max-width: 50vw;
+}
+.right{
+    max-width: 50vw;
 }
 .left h2{
     font-size:2rem;
