@@ -14,6 +14,7 @@
     
     
 }
+
 .main{
     display: flex;
     justify-content: space-around;
@@ -23,7 +24,8 @@
     
 }
 .right img{
-    height: 90vh;
+    height: 50vh;
+    object-fit:cover;
 }
 .left h1{
     font-size:3.5rem;
@@ -123,4 +125,21 @@ color: white;
 }
 .check{
     cursor: pointer;
+}
+
+@media only screen and (max-width:1000) {
+    .homepage{background-color: red;}
+    
+}
+.borders{
+    
+    display: inline;
+    background-color: black;
+    color: white;
+}
+.codingimg{
+    padding: 0px;
+    margin: 0px;
+    height: 20vh;
+    object-fit: cover;
 }
