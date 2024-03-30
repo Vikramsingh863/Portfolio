@@ -1,5 +1,6 @@
 *{
     background-color: black;
+    /* font-family: poppin; */
 }
 @font-face {
     font-family:poppins ;
@@ -26,11 +27,11 @@
     
 }
 .right img{
-    height: 50vh;
+    height: 100vh;
     object-fit:cover;
 }
 .left h1{
-    font-size:3.5rem;
+    font-size:3rem;
     font-weight: 600;
     margin-bottom: 10vh;
     font-family:poppin;
@@ -42,31 +43,33 @@
 
 }
 .left h2{
-    font-size:2.5rem;
+    font-size:2rem;
     font-weight: 400;
     font-family:poppins;
 }
 .left span{
     color: rgb(247, 48, 147);
 }
-.abbgcolor{
+/* .abbgcolor{
     background-color:black;
     height: 100%;
-}
+} */
 
 
 .tabs {
     min-height: 200px;
     position: relative;
-    /* background: white; */
+    /* background: rgb(75, 73, 73); */
     margin: 50px 0px 30px 5px;
     clear: both;
+    
 
 }
 
 .tab {
     float: left;
     font-size:large;
+    
 }
 
 .tab label {
@@ -74,6 +77,12 @@
     position: relative;
     left: 8px;
     top: -22px;
+    background-color: rgb(27, 27, 26);
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 8vw;
+    text-align: center;
+    
 }
 
 .tab [type=radio] {
@@ -84,7 +93,7 @@
     position: absolute;
     left: 0;
     /* border-top: 2px solid #D2D9E6; */
-    top: 3px;
+    top: 6vh;
     right: 0;
     bottom: 0;
     padding: 22px;
@@ -92,9 +101,16 @@
 }
 
 .tabs [type=radio]:checked~label {
-    /* background: white; */
+    /* box-shadow: inset 0 0 5px 5px ; */
     z-index: 0;
-    border-bottom: 2px solid rgb(247, 48, 147);
+    /* border-bottom: 2px solid rgb(194, 23, 23); */
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 48, 147);
+    border-radius: 5px ;
+    min-width: 100px;
+    box-shadow: .5px .5px 1px 1px rgb(236, 233, 235);
+    /* box-shadow: inset .5px .5px 1px 1px rgb(218, 14, 48) ; */
+    
 }
 
 .tabs [type=radio]:checked~label~.content {
@@ -104,9 +120,15 @@
 
 .educont{
 color: white;
+
 }
 .eduhead{
-    color:white;
+    color:rgb(168, 18, 18);
+    
+}
+.check{
+    cursor: pointer;
+    
 }
 .aboutsec{
     color: white;
@@ -135,8 +157,9 @@ color: white;
 .codingimg{
     padding: 0px;
     margin: 0px;
+    max-width: 200px;
     height: 20vh;
-    object-fit: cover;
+
 }
 .nav{
     justify-content: space-around;
@@ -144,18 +167,75 @@ color: white;
     padding-right: 5px;
     align-items: center;
     display: flex;
-    background-color: black;
+    background-color:rgb(247, 48, 147);
     /* border: 2px solid red; */
+    
 }
 .navul{
     display: flex;
     /* padding-right: 20px; */
     color: white;
     flex-wrap: wrap;
+    /* background-color:rgb(247, 48, 147); */
+    
+}
+.nav *{
+    
+    background-color:rgb(247, 48, 147);
+    font-size:large;
+    
+    height: 70px;
+    min-width: 70px;
+    text-align: center;
+}
+.navlink{
+     /* background-color:rgb(247, 48, 147); */
+}
+.bgcolor{
+    background-color: rgb(247, 48, 147);
+    border-radius: 5px;
+    min-width: 70px;
 }
 .navimg{
     height: 70px;
     width: 100px;
     object-fit:fill;
    margin-right: 20px; 
+   background-color:rgb(247, 48, 147);
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+    /* border: 2px solid white; */
+    min-height: 65vh;
+    
+}
+.contact1 h1{
+ font-size: 3rem;
+ font-family: poppin;
+margin: 10px;
+}
+.contact2{
+
+}
+.contact button{
+    background-color: rgb(247, 48, 147);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5vh;
+}
+.contact1 p img{
+    display: inline;
+    margin: 10px;
+}
+.icons{
+    display: flex;
+    
+    align-items: center;
+    
+}
+.icons a{
+    margin: 10px;
 }

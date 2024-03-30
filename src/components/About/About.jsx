@@ -5,14 +5,41 @@ export default function About() {
         <div className="py-16 abbgcolor">
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
 
-                <div className="space-y-6 md:space-y-0 md:flex md:gap-6  lg:gap-12">
+                <div className="space-y-6 md:space-y-0 md:flex md:gap-6  lg:gap-12 ">
                     <div className="md:5/12 lg:w-5/12">
-                        <img
+                        {/* <img
                             src="https://camo.githubusercontent.com/905b96edece53a982ed9dd6870ce61ad6ee85d6598755f88a859e0322a70842f/68747470733a2f2f6d656469612e74656e6f722e636f6d2f726550446644574f33586f41414141642f6861636b696e672e676966"
                             alt="image"
 
                             
-                        />
+                        /> */}
+
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active "data-bs-interval="5000">
+      
+        <a href="https://github.com/Vikramsingh863/spotify">
+        Spotify Clone
+      <img src="vikram.jpg" class="d-block w-100" alt="..."/>
+      
+      </a>
+    </div>
+    <div class="carousel-item"data-bs-interval="5000">
+      <img src="vikram.jpg" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item"data-bs-interval="5000">
+      <img src="vikram.jpg" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
                         
                     </div>
 
@@ -30,7 +57,7 @@ export default function About() {
 
 
                         <div className="tabs ">
-                            <div className="tab ">
+                            <div className="tab  ">
                                 <input type="radio" className="" id="tab-1" name="tab-group" checked />
                                 <label className="check" htmlFor="tab-1">Skills</label>
 
