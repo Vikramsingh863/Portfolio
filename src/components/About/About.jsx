@@ -14,33 +14,77 @@ export default function About() {
                             
                         /> */}
 
-<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-inner">
-    <div class="carousel-item active "data-bs-interval="5000">
-      
-        <a href="https://github.com/Vikramsingh863/spotify">
-        Spotify Clone
-      <img src="vikram.jpg" class="d-block w-100" alt="..."/>
-      
-      </a>
-    </div>
-    <div class="carousel-item"data-bs-interval="5000">
-      <img src="vikram.jpg" class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item"data-bs-interval="5000">
-      <img src="vikram.jpg" class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-                        
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active " data-bs-interval="5000">
+
+                                    <a href="https://github.com/Vikramsingh863/spotify">
+                                        Spotify Clone
+                                        <img src="spotify.png" class="d-block w-100" alt="..." />
+
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <a href="">
+                                        Weather App
+                                        <img src="weather.png" class="d-block w-100" alt="..." />
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    Zomato Project
+                                    <a href="">
+                                        <img src="zomato.png" class="d-block w-100" alt="..." />
+
+                                    </a>
+                                </div>
+                                
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <a href="">
+                                        Zomato Project 
+                                        <img src="zomato (2).png" class="d-block w-100" alt="..." />
+                                    </a>
+                                </div>
+                                
+                                <div class="carousel-item" data-bs-interval="5000">
+                                Video stream app using Node.js
+                                    <a href="">
+                                        <img src="videostream.png" class="d-block w-100" alt="..." />
+                                    </a>
+                                </div>
+
+                                
+
+                                <div class="carousel-item" data-bs-interval="5000">
+                                Video stream app using Node.js
+                                <a href="">
+                                    <img src="videostream2.png" class="d-block w-100" alt="..." />
+                                </a>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                Currency converter
+                                <a href="https://github.com/Vikramsingh863/React-project/tree/main/my-project">
+                                    <img src="Currency.png" class="d-block w-100" alt="..." />
+                                </a>
+                            </div>
+
+                            
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                            
+
+
+                        </div>
+
                     </div>
 
                     <div className="md:7/12 lg:w-6/12 aboutsec">
@@ -63,15 +107,15 @@ export default function About() {
 
                                 <div className="content">
                                     <div>
-                                        - Programming Languages: JavaScript, HTML5, CSS3, C, C++<br/>
-                                        - Frontend Development: React.js, Redux, HTML, CSS, Bootstrap, Tailwind CSS<br/>
-                                        - Backend Development: Node.js, Express.js<br/>
-                                        - Database: MongoDB, Mongoose<br/>
-                                        - Version Control: Git, GitHub<br/>
-                                        - RESTful APIs<br/>
-                                        - Responsive Web Design<br/>
-                                     - Cross-Browser Compatibility<br/>                                                                    
-                                        - Problem-Solving and Troubleshooting<br/>
+                                        - Programming Languages: JavaScript, HTML5, CSS3, C, C++<br />
+                                        - Frontend Development: React.js, Redux, HTML, CSS, Bootstrap, Tailwind CSS<br />
+                                        - Backend Development: Node.js, Express.js<br />
+                                        - Database: MongoDB, Mongoose<br />
+                                        - Version Control: Git, GitHub<br />
+                                        - RESTful APIs<br />
+                                        - Responsive Web Design<br />
+                                        - Cross-Browser Compatibility<br />
+                                        - Problem-Solving and Troubleshooting<br />
                                         - Communication and Collaboration</div>
                                 </div>
                             </div>
